@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NewsList_Category_Example' do
+  pod 'NewsList_Category', :path => '../'
+
+  target 'NewsList_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
