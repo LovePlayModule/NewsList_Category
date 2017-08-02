@@ -8,6 +8,9 @@
 
 #import <Mediator/Mediator.h>
 
+extern NSString * const kMediatorNewsListParamsSourceTypeKey;
+extern NSString * const kMediatorNewsListParamsTopicIDKey;
+
 @interface Mediator (NewsList)
 
 - (UIViewController *)NewsList_viewController;
