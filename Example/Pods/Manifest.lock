@@ -1,0 +1,20 @@
+PODS:
+  - Mediator (0.1.0)
+  - NewsList_Category (0.1.0):
+    - Mediator
+
+DEPENDENCIES:
+  - Mediator
+  - NewsList_Category (from `../`)
+
+EXTERNAL SOURCES:
+  NewsList_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mediator: 5b8aebadf067de253f3f81900b4bea0909373842
+  NewsList_Category: bf29daedc143c73bfb35cf0088162284aa4aa8e3
+
+PODFILE CHECKSUM: fe92a7cad77dde671d05c6bbca5549f4303bad58
+
+COCOAPODS: 1.2.1
